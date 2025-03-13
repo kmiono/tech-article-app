@@ -1,0 +1,23 @@
+{
+  "name": "tech-article-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "react-server",
+    "build": "react-server build",
+    "preview": "react-server start"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "@lazarv/react-server": "^0.0.0-experimental-44033c0-20250123-2c156f57",
+    "convex": "^1.20.0",
+    "lucide-react": "^0.479.0"
+  }
+}
